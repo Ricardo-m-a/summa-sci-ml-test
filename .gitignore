@@ -208,7 +208,6 @@ __marimo__/
 
 # Ignorar todos los datos
 data/raw/*
-data/processed/*
 
 # Ignorar archivos Excel y CSV en cualquier lado
 *.csv
