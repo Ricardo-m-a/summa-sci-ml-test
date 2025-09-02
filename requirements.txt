@@ -1,0 +1,28 @@
+# Requisitos principales (probados con Python 3.11)
+# Pinear versiones para reproducibilidad. Revísalas periódicamente y actualiza con tests.
+numpy==1.25.2
+pandas==2.2.2
+scipy==1.11.1
+
+# ML & modelos
+scikit-learn==1.2.2
+xgboost==1.7.6
+prophet==1.1.4            # Prophet (antes fbprophet) — puede instalarse via pip
+statsmodels==0.14.0
+
+# Utilidades y I/O
+matplotlib==3.7.2
+joblib==1.3.1
+python-dateutil==2.8.2
+
+# Interactividad / notebook
+ipython==8.14.0
+jupyterlab==4.3.3
+
+# Preprocesamiento / pipeline
+patsy==0.5.3
+scikit-learn-intelex==2023.4.0   # opcional para acelerar sklearn (si es útil)
+
+# Extras útiles (opcional)
+seaborn==0.13.2
+tqdm==4.66.1
