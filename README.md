@@ -1,5 +1,5 @@
 # summa-sci-ml-test
-Prueba técnica summa 
+
 Este repositorio contiene un flujo completo de análisis y modelado aplicado a datos de clientes, incluyendo exploración, pronóstico de demanda y clasificación supervisada.
 
 Estructura
