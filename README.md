@@ -15,7 +15,7 @@ Clasificación de clientes: preparación de features, codificación, entrenamien
 
 Requisitos
 
-Python 3.x
+Python 3.11
 
 Librerías principales: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
 
