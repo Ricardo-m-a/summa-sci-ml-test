@@ -26,3 +26,12 @@ scikit-learn-intelex==2023.4.0   # opcional para acelerar sklearn (si es útil)
 # Extras útiles (opcional)
 seaborn==0.13.2
 tqdm==4.66.1
+
+
+# API
+fastapi
+uvicorn
+joblib
+scikit-learn
+pandas
+show uvicorn
