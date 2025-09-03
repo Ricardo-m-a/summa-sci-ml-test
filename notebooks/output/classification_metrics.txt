@@ -1,0 +1,13 @@
+selected_model: rf
+test_accuracy: 0.6557842441447835
+test_f1_macro: 0.5196976906495097
+classification_report:               precision    recall  f1-score   support
+
+       ALPHA     0.7447    0.8087    0.7754      1035
+        BETA     0.3053    0.2326    0.2640       374
+
+    accuracy                         0.6558      1409
+   macro avg     0.5250    0.5207    0.5197      1409
+weighted avg     0.6280    0.6558    0.6396      1409
+
+search_summary: [{'model': 'rf', 'best_score_f1_macro': 0.834675544631383, 'cv_scores': {'fit_time': 2.9915218353271484, 'score_time': 0.4915182113647461, 'test_accuracy': 0.8356495468277945, 'test_precision_macro': 0.8438086391549913, 'test_recall_macro': 0.8356495468277945, 'test_f1_macro': 0.834675544631383}, 'best_params': {'clf__n_estimators': 200, 'clf__min_samples_leaf': 1, 'clf__max_depth': None, 'clf__class_weight': None}}, {'model': 'xgb', 'best_score_f1_macro': 0.7049703355974147, 'cv_scores': {'fit_time': 0.6347713947296143, 'score_time': 0.07701630592346191, 'test_accuracy': 0.7057401812688822, 'test_precision_macro': 0.7078592933779235, 'test_recall_macro': 0.7057401812688822, 'test_f1_macro': 0.7049703355974147}, 'best_params': {'clf__scale_pos_weight': 1, 'clf__n_estimators': 200, 'clf__max_depth': 6, 'clf__learning_rate': 0.1}}, {'model': 'hgb', 'best_score_f1_macro': 0.6824821031134344, 'cv_scores': {'fit_time': 2.2455536365509032, 'score_time': 0.13485116958618165, 'test_accuracy': 0.682930513595166, 'test_precision_macro': 0.6839374191252163, 'test_recall_macro': 0.682930513595166, 'test_f1_macro': 0.6824821031134344}, 'best_params': {'clf__max_iter': 200, 'clf__max_depth': None, 'clf__learning_rate': 0.05}}, {'model': 'svc', 'best_score_f1_macro': 0.6420384411013961, 'cv_scores': {'fit_time': 38.70452909469604, 'score_time': 2.508542060852051, 'test_accuracy': 0.6424471299093655, 'test_precision_macro': 0.6431374180908527, 'test_recall_macro': 0.6424471299093655, 'test_f1_macro': 0.6420384411013961}, 'best_params': {'clf__kernel': 'rbf', 'clf__class_weight': None, 'clf__C': 10}}, {'model': 'logreg', 'best_score_f1_macro': 0.5112173245433216, 'cv_scores': {'fit_time': 0.22636013031005858, 'score_time': 0.04760951995849609, 'test_accuracy': 0.5117824773413897, 'test_precision_macro': 0.5118468251230287, 'test_recall_macro': 0.5117824773413897, 'test_f1_macro': 0.5112173245433216}, 'best_params': {'clf__penalty': 'l2', 'clf__class_weight': None, 'clf__C': 0.046415888336127795}}]
